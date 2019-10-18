@@ -5,7 +5,7 @@ let flightEl = document.getElementById("flight");
 let mindreadingEl = document.getElementById("mindreading");
 let xrayEl = document.getElementById("xray");
 //had to use all three, this turns it in to a nodeList, which acts like an array
-let powerListEl = document.querySelectorAll("#flight, #mindreading, #xray")
+let powerListEl = document.querySelectorAll(".power")
 
 console.log(powerListEl)
 
